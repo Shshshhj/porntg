@@ -56,7 +56,7 @@ async def help(_, message):
         """**🛠 available command:**
         
 /help see the help message.\n
-/repo get the repo link.\n
+/alive to check i am alive\n
 
 If you want to download phub video, just type any query."""
     )
@@ -87,7 +87,7 @@ async def sarch(_,message):
     try:
         if "/" in message.text.split(None,1)[0]:
             await message.reply_text(
-                "**💡 usage:**\njust type the phub video name you want to download, and this bot will send you the result."
+                "**💡 usage:**\n just type the phub video name you want to download, and this bot will send you the result."
             )
             return
     except:
