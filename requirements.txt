@@ -1,4 +1,4 @@
-python-arq
+git+https://github.com/Shshshhj/Python_ARQ
 Pyrogram
 TgCrypto
 aiohttp
